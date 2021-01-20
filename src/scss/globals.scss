@@ -1,0 +1,14 @@
+@import './reusables/containers.scss';
+@import './reusables/margins.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}

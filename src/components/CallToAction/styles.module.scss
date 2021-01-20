@@ -1,0 +1,17 @@
+@import '../../scss/colors';
+
+.cta {
+  background: $main;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  letter-spacing: 0.05em;
+  outline: none;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

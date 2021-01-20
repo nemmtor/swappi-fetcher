@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "allowJs": false,
+    "noImplicitAny": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "strictNullChecks": true,
+    "downlevelIteration": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
     "allowSyntheticDefaultImports": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -20,7 +27,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

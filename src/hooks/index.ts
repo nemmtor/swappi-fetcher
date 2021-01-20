@@ -1,0 +1,1 @@
+export { useSwapiFetch } from './useSwapiFetch';
